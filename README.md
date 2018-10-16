@@ -2,6 +2,10 @@
 
 基于[nklayman/vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder)构建的[d2-admin](https://github.com/d2-projects/d2-admin)桌面版demo
 
+![](https://ws1.sinaimg.cn/large/006tNbRwgy1fwa44w5ylgj318g0xct9s.jpg)
+
+!!!**初次尝试，后续慢慢更新**
+
 # 测试
 
 ```cmd
