@@ -53,7 +53,8 @@
     "svg-sprite-loader": "^3.8.0",
     "text-loader": "0.0.1",
     "vue-cli-plugin-electron-builder": "^1.0.0-rc.3",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "web-storage-cache": "^1.0.3"
   },
   "lint-staged": {
     "*.js": [

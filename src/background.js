@@ -20,6 +20,8 @@ let mainWindow
 protocol.registerStandardSchemes(['app'], { secure: true })
 function createMainWindow () {
   const window = new BrowserWindow()
+  // 便于打包后测试 https://github.com/nklayman/vue-cli-plugin-electron-builder/issues/109
+  window.webContents.openDevTools()
 
   if (isDevelopment) {
     // Load the url of the dev server if in development mode
