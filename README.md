@@ -10,7 +10,7 @@
 
 ```bash
 # 标识是否允许于Electron环境（注意开发环境可以设置为false，但是如需build必须设置为true）
-VUE_APP_RUN_IN_ELECTRON=true
+VUE_APP_IS_ELECTRON=true
 ```
 
 # 测试
@@ -38,4 +38,4 @@ npm run build:electron
 
 # 更新
 
-- [feat: 添加**VUE_APP_RUN_IN_ELECTRON**环境变量配置](https://github.com/Jiiiiiin/d2-admin-electron-vue/commit/48150286d2e9509887db6b03021a3ca244cbba8c)
+- [feat: 添加**VUE_APP_IS_ELECTRON**环境变量配置](https://github.com/Jiiiiiin/d2-admin-electron-vue/commit/48150286d2e9509887db6b03021a3ca244cbba8c)
