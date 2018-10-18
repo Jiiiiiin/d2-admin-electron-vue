@@ -38,7 +38,6 @@ export default {
     Vue.prototype.$env = process.env.NODE_ENV
     // 当前的 baseUrl
     // 简化代码中 process.env.BASE_URL 取值
-    Vue.prototype.$baseUrl = process.env.VUE_APP_RUN_IN_ELECTRON ? '/' : process.env.BASE_URL
-    console.log('process.env.VUE_APP_RUN_IN_ELECTRON', process.env.VUE_APP_RUN_IN_ELECTRON, Vue.prototype.$baseUrl, process.env.BASE_URL)
+    Vue.prototype.$baseUrl = process.env.VUE_APP_IS_ELECTRON ? '/' : process.env.BASE_URL
   }
 }
